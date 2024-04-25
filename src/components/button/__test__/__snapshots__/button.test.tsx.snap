@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Btton component should render correct appearance  1`] = `
+<button
+  appearance="secondaryOutline"
+  class="sc-dmyCSP dVaWGT"
+  data-testid="button"
+>
+  <span
+    class="sc-beySPh xLANQ"
+  >
+    hello
+  </span>
+</button>
+`;
