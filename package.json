@@ -54,7 +54,6 @@
       "plugin:storybook/recommended"
     ]
   },
-
   "husky":{
     "hooks": {
       "pre-commit": "npm run lint"
