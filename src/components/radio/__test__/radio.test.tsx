@@ -4,7 +4,7 @@
 /* eslint-disable testing-library/prefer-screen-queries */
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import { Radio } from '../index';
+import Radio from '../index';
 import { color } from '../../shared/styles';
 
 const testfn = jest.fn();

@@ -3,7 +3,7 @@
 /* eslint-disable testing-library/render-result-naming-convention */
 import React from "react";
 import { render, fireEvent, cleanup } from "@testing-library/react";
-import { Avatar, AvatarSizes } from "../index";
+import Avatar,{ AvatarSizes } from "../index";
 import { color, typography } from "../../shared/styles";
 
 

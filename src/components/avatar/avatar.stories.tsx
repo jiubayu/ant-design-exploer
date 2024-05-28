@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, AvatarSizes } from "./index";
+import Avatar, { AvatarSizes } from "./index";
 
 export default {
   title: "Avatar",

@@ -82,7 +82,7 @@ export interface BadgeProps extends HTMLAttributes<HTMLDivElement> {
   status?: 'positive' | 'negative' | 'neutral' | 'warning' | 'error';
 }
 
-export function Badge(props: PropsWithChildren<BadgeProps>) {
+export default function Badge(props: PropsWithChildren<BadgeProps>) {
   return <BedgeWrapper  {...props}/>
 }
 

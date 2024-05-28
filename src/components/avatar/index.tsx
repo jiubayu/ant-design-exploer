@@ -2,7 +2,7 @@ import React, {HTMLAttributes,useMemo} from "react";
 import styled, {css} from "styled-components";
 import { color, typography } from "../shared/styles";
 import { grow } from "../shared/animation";
-import { Icon } from "../icon";
+import Icon from "../icon";
 
 
 interface a11yProps {
@@ -126,7 +126,7 @@ const Initial = styled.div<AvatarProps>`
     `}
 `;
 
-export function Avatar(props: AvatarProps) {
+export default function Avatar(props: AvatarProps) {
   const { size, src, username, isLoading } = props;
   const avatarFigure = useMemo(() => {
     let avatarFigure = <Icon icon="useralt" />;

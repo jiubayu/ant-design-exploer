@@ -1,6 +1,6 @@
 import React from "react";
-import { Badge } from "./index";
-import { Icon } from "../icon";
+import Badge from "./index";
+import Icon from "../icon";
 
 export default {
 title: "Badge",

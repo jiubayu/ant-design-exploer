@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import {color, typography} from '../shared/styles';
 import {darken, rgba, opacify} from 'polished';
 import {easing} from '../shared/animation';
-import { Pagination } from '../pagination';
-import { Icon } from '../icon';
+import Pagination from '../pagination';
+import Icon from '../icon';
 export type TableProps = {
   /** 表内数据部分 */
   data: SourceDataType[];
@@ -111,7 +111,7 @@ const mapData = (data: SourceDataType[], columnData: ColumnType[]) => {
     )
   })
 }
-export function Table(props: PropsWithChildren<TableProps>) {
+export default function Table(props: PropsWithChildren<TableProps>) {
   const { data, pageSize, columns, sorted, pagination } = props;
   const [columnData, setColumnData] = useState<ColumnType[]>([]);
   const [sourceData, setSourceData] = useState<SourceDataType[]>([]);

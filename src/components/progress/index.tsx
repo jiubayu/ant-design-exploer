@@ -126,7 +126,7 @@ const CircleText = styled.div<{size: number}>`
   transform: translateX(-50%) translateY(-50%);
 `;
 
-export function Progress(props: PropsWithChildren<ProgressProps>) {
+export default function Progress(props: PropsWithChildren<ProgressProps>) {
   const {
     count,
     countNumber,

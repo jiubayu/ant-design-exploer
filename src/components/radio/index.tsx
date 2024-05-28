@@ -132,7 +132,7 @@ export interface RadioProps
   wrapperClass?: string;
 }
 
-export function Radio(props: PropsWithChildren< RadioProps>) {
+export default function Radio(props: PropsWithChildren< RadioProps>) {
   const { appearance, label, hideLabel, error, description, wrapperClass, disabled, ...restProps } =
     props;
 

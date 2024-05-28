@@ -5,7 +5,7 @@ import {darken, rgba, opacify} from 'polished';
 import {modalOpenAnimate, modalCloseAnimate} from '../shared/animation';
 import {createPortal} from 'react-dom';
 import Button from '../button';
-import { Icon } from '../icon';
+import Icon from '../icon';
 
 /**
  * modal分为3个部分
@@ -164,7 +164,7 @@ export function useStopScroll(state: boolean, delay?: number, open?: boolean) {
   }
 }
 
-export function Modal(props: PropsWithChildren<ModalProps>) {
+export default function Modal(props: PropsWithChildren<ModalProps>) {
   	const {
       visible,
       maskClose,

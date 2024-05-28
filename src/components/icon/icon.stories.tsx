@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, IconProps } from './index';
+import Icon, { IconProps } from './index';
 // import { withKnobs, color, select } from '@storybook/addon-knobs';
 import styled from 'styled-components';
 import { icons } from '../shared/icons';

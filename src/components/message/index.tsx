@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import ReactDOM, {unmountComponentAtNode} from 'react-dom';
 import { color, messageBoxShadow, typography } from '../shared/styles';
 import { iconSpin, messageCloseAnimate, messageOpenAnimate } from '../shared/animation';
-import { Icon } from '../icon';
+import Icon from '../icon';
 
 const MessageText = styled.span<{bg: string; fc: string}>`
   display: inline-block;
@@ -124,7 +124,7 @@ const defaultConfig: MessageConfig = {
   color: color.dark,
 };
 
-export function Message(props: PropsWithChildren<MessageProps>) {
+export default function Message(props: PropsWithChildren<MessageProps>) {
   const { rootDom, parentDom, content, fconfig, iconType } = props;
   const [close, setClose] = useState(false);
   const renderIcon = useMemo(() => {

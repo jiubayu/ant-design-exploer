@@ -13,9 +13,9 @@ import {darken, rgba, opacify} from 'polished';
 import axios, {AxiosRequestConfig, CancelTokenSource} from 'axios';
 import Button from '../button';
 import {message} from '../message';
-import {Progress} from '../progress';
-import {Icon} from '../icon';
-import {Modal} from '../modal';
+import Progress from '../progress';
+import Icon from '../icon';
+import Modal from '../modal';
 import { iconSpin } from '../shared/animation';
 
 interface ProgressBar {
@@ -434,7 +434,7 @@ const ProgressLi = styled.li`
   box-shadow: 2px 2px 4px #d9d9d9;
 `;
 
-export function Upload(props: PropsWithChildren<UploadProps>) {
+export default function Upload(props: PropsWithChildren<UploadProps>) {
   const {
     axiosConfig,
     onProgress,

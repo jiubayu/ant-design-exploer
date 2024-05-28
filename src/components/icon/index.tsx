@@ -42,7 +42,7 @@ const Svg = styled.svg<IconProps>`
 const Path = styled.path`
   fill: ${(props) => props.color};
 `;
-export function Icon(props: IconProps) {
+export default function Icon(props: IconProps) {
   const {icon, color, block} = props;
   return (
     <Svg

@@ -1,5 +1,5 @@
 import React from "react";
-import { SourceDataType, Table } from "./index";
+import Table, { SourceDataType } from "./index";
 import { version } from "styled-components";
 
 export default {

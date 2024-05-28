@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Radio } from './index';
+import Radio from './index';
 import { action } from '@storybook/addon-actions';
 import { color } from '../shared/styles';
-import { Icon } from '../icon';
+import Icon from '../icon';
 
 export default {
   title: 'Radio',

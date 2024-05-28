@@ -1,9 +1,14 @@
-import React, { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode, useMemo } from 'react';
+import React, {
+  AnchorHTMLAttributes,
+  ButtonHTMLAttributes,
+  ReactNode,
+  useMemo
+} from 'react';
 import styled from 'styled-components';
-import { color,typography } from '../shared/styles';
+import {color, typography} from '../shared/styles';
 // A lightweight toolset for writing styles in JavaScript
 import {darken, rgba, opacify} from 'polished';
-import { easing } from '../shared/animation';
+import {easing} from '../shared/animation';
 
 /**  ts类型  */
 type btnType =
@@ -19,7 +24,7 @@ type btnType =
 
 type AppearanceObj = {
   [key in btnType]: btnType;
-}  
+};
 
 export const APPEARANCES: AppearanceObj = {
   primary: 'primary',
@@ -80,9 +85,9 @@ export const btnPadding = {
   small: '8px 16px',
 };
 
-
-
-export type ButtonProps = CustormButtonProps & ButtonHTMLAttributes<HTMLButtonElement> & AnchorHTMLAttributes<HTMLAnchorElement>;
+export type ButtonProps = CustormButtonProps &
+  ButtonHTMLAttributes<HTMLButtonElement> &
+  AnchorHTMLAttributes<HTMLAnchorElement>;
 
 /** StyledButton */
 const StyledButton = styled.button<ButtonProps>`
@@ -182,8 +187,6 @@ const StyledButton = styled.button<ButtonProps>`
         transform: none;
       }
     `}
-
-
 
   ${(props) =>
     props.appearance === APPEARANCES.primary &&
@@ -433,9 +436,8 @@ const StyledButton = styled.button<ButtonProps>`
       `};
 `;
 
-
 function Button(props: ButtonProps) {
-  const { children, isLoading, isLink, loadingText } = props;
+  const {children, isLoading, isLink, loadingText} = props;
   const buttonInner = (
     <>
       <Text>{children}</Text>
@@ -465,5 +467,5 @@ Button.defaultProps = {
   containsIcon: false,
   size: SIZES.medium,
   ButtonWrapper: undefined,
-}
+};
 export default Button;

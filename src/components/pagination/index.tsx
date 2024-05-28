@@ -4,7 +4,7 @@ import {color, typography} from '../shared/styles';
 import {darken, rgba, opacify} from 'polished';
 import {easing} from '../shared/animation';
 import Button from '../button';
-import {Icon} from '../icon';
+import Icon from '../icon';
 
 type PaginationProps = {
   /** 每页显示多少条*/
@@ -60,7 +60,7 @@ function calculateMove(
   return arr;
 }
 
-export function Pagination(props: PropsWithChildren<PaginationProps>) {
+export default function Pagination(props: PropsWithChildren<PaginationProps>) {
   const {pageSize, defaultCurrent, barMaxSize, total, callback, style, classnames} = props;
   const [current, setCurrent] = useState(defaultCurrent);
   const [state, setState] = useState<Array<number>>([]);

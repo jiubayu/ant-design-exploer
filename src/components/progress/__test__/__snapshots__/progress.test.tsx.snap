@@ -1,0 +1,1735 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Progress component  should render bycount 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-aYaIB dPbmMr"
+      >
+        <div
+          bottomcolor="#DDDDDD"
+          class="sc-eqUzNf gcsqwE"
+        >
+          <div
+            class="sc-gEvDqW bHcA-DC"
+            flashcolor="#FFFFFF"
+            primary="#FF4785"
+            secondary="#FFAE00"
+            state="11"
+          />
+        </div>
+        <div
+          class="sc-fqkwJk ifcUbU"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-aYaIB dPbmMr"
+    >
+      <div
+        bottomcolor="#DDDDDD"
+        class="sc-eqUzNf gcsqwE"
+      >
+        <div
+          class="sc-gEvDqW bHcA-DC"
+          flashcolor="#FFFFFF"
+          primary="#FF4785"
+          secondary="#FFAE00"
+          state="11"
+        />
+      </div>
+      <div
+        class="sc-fqkwJk ifcUbU"
+      >
+        11%
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component  should render bycount 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-aYaIB dPbmMr"
+      >
+        <div
+          bottomcolor="#DDDDDD"
+          class="sc-eqUzNf gcsqwE"
+        >
+          <div
+            class="sc-gEvDqW iKRaCb"
+            flashcolor="#FFFFFF"
+            primary="#FF4785"
+            secondary="#FFAE00"
+            state="100"
+          />
+        </div>
+        <div
+          class="sc-fqkwJk ifcUbU"
+        >
+          100%
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-aYaIB dPbmMr"
+    >
+      <div
+        bottomcolor="#DDDDDD"
+        class="sc-eqUzNf gcsqwE"
+      >
+        <div
+          class="sc-gEvDqW iKRaCb"
+          flashcolor="#FFFFFF"
+          primary="#FF4785"
+          secondary="#FFAE00"
+          state="100"
+        />
+      </div>
+      <div
+        class="sc-fqkwJk ifcUbU"
+      >
+        100%
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component  should render bycount 3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-aYaIB dPbmMr"
+      >
+        <div
+          bottomcolor="#DDDDDD"
+          class="sc-eqUzNf gcsqwE"
+        >
+          <div
+            class="sc-gEvDqW bUyLUi"
+            flashcolor="#FFFFFF"
+            primary="#FF4785"
+            secondary="#FFAE00"
+            state="0"
+          />
+        </div>
+        <div
+          class="sc-fqkwJk ifcUbU"
+        >
+          0%
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-aYaIB dPbmMr"
+    >
+      <div
+        bottomcolor="#DDDDDD"
+        class="sc-eqUzNf gcsqwE"
+      >
+        <div
+          class="sc-gEvDqW bUyLUi"
+          flashcolor="#FFFFFF"
+          primary="#FF4785"
+          secondary="#FFAE00"
+          state="0"
+        />
+      </div>
+      <div
+        class="sc-fqkwJk ifcUbU"
+      >
+        0%
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component  should render bycount 4`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dcJtft hJYaUE"
+      >
+        <svg
+          height="100"
+          style="transform: rotate(270deg);"
+          viewBox="0 0 420 420"
+          width="100"
+        >
+          <defs>
+            <radialgradient
+              cx="100%"
+              cy="100%"
+              id="linear"
+              r="100%"
+              spreadMethod="pad"
+            >
+              <stop
+                offset="0%"
+                stop-color="#40a9ff"
+              />
+              <stop
+                offset="100%"
+                stop-color="#36cfc9"
+              />
+            </radialgradient>
+          </defs>
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            r="170"
+            stroke="#f5f5f5"
+            stroke-width="40"
+          />
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            opacity="1"
+            r="170"
+            stroke="url(#linear)"
+            stroke-dasharray="117.49556524425826950.6459369762714"
+            stroke-dashoffset="0px"
+            stroke-linecap="round"
+            stroke-width="40"
+            style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+          />
+        </svg>
+        <div
+          style="line-height: 60px; width: 60px; height: 62px;"
+        >
+          <div
+            class="sc-iGgVNO dJdYQu"
+            size="100"
+          >
+            11%
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dcJtft hJYaUE"
+    >
+      <svg
+        height="100"
+        style="transform: rotate(270deg);"
+        viewBox="0 0 420 420"
+        width="100"
+      >
+        <defs>
+          <radialgradient
+            cx="100%"
+            cy="100%"
+            id="linear"
+            r="100%"
+            spreadMethod="pad"
+          >
+            <stop
+              offset="0%"
+              stop-color="#40a9ff"
+            />
+            <stop
+              offset="100%"
+              stop-color="#36cfc9"
+            />
+          </radialgradient>
+        </defs>
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          r="170"
+          stroke="#f5f5f5"
+          stroke-width="40"
+        />
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          opacity="1"
+          r="170"
+          stroke="url(#linear)"
+          stroke-dasharray="117.49556524425826950.6459369762714"
+          stroke-dashoffset="0px"
+          stroke-linecap="round"
+          stroke-width="40"
+          style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+        />
+      </svg>
+      <div
+        style="line-height: 60px; width: 60px; height: 62px;"
+      >
+        <div
+          class="sc-iGgVNO dJdYQu"
+          size="100"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component  should render bycount 5`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dcJtft hJYaUE"
+      >
+        <svg
+          height="100"
+          style="transform: rotate(270deg);"
+          viewBox="0 0 420 420"
+          width="100"
+        >
+          <defs>
+            <radialgradient
+              cx="100%"
+              cy="100%"
+              id="linear"
+              r="100%"
+              spreadMethod="pad"
+            >
+              <stop
+                offset="0%"
+                stop-color="#40a9ff"
+              />
+              <stop
+                offset="100%"
+                stop-color="#36cfc9"
+              />
+            </radialgradient>
+          </defs>
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            r="170"
+            stroke="#f5f5f5"
+            stroke-width="40"
+          />
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            opacity="1"
+            r="170"
+            stroke="url(#linear)"
+            stroke-dasharray="1068.14150222052970"
+            stroke-dashoffset="0px"
+            stroke-linecap="round"
+            stroke-width="40"
+            style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+          />
+        </svg>
+        <div
+          style="line-height: 60px; width: 60px; height: 62px;"
+        >
+          <div
+            class="sc-iGgVNO dJdYQu"
+            size="100"
+          >
+            100%
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dcJtft hJYaUE"
+    >
+      <svg
+        height="100"
+        style="transform: rotate(270deg);"
+        viewBox="0 0 420 420"
+        width="100"
+      >
+        <defs>
+          <radialgradient
+            cx="100%"
+            cy="100%"
+            id="linear"
+            r="100%"
+            spreadMethod="pad"
+          >
+            <stop
+              offset="0%"
+              stop-color="#40a9ff"
+            />
+            <stop
+              offset="100%"
+              stop-color="#36cfc9"
+            />
+          </radialgradient>
+        </defs>
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          r="170"
+          stroke="#f5f5f5"
+          stroke-width="40"
+        />
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          opacity="1"
+          r="170"
+          stroke="url(#linear)"
+          stroke-dasharray="1068.14150222052970"
+          stroke-dashoffset="0px"
+          stroke-linecap="round"
+          stroke-width="40"
+          style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+        />
+      </svg>
+      <div
+        style="line-height: 60px; width: 60px; height: 62px;"
+      >
+        <div
+          class="sc-iGgVNO dJdYQu"
+          size="100"
+        >
+          100%
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component  should render bycount 6`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dcJtft hJYaUE"
+      >
+        <svg
+          height="100"
+          style="transform: rotate(270deg);"
+          viewBox="0 0 420 420"
+          width="100"
+        >
+          <defs>
+            <radialgradient
+              cx="100%"
+              cy="100%"
+              id="linear"
+              r="100%"
+              spreadMethod="pad"
+            >
+              <stop
+                offset="0%"
+                stop-color="#40a9ff"
+              />
+              <stop
+                offset="100%"
+                stop-color="#36cfc9"
+              />
+            </radialgradient>
+          </defs>
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            r="170"
+            stroke="#f5f5f5"
+            stroke-width="40"
+          />
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            opacity="0"
+            r="170"
+            stroke="url(#linear)"
+            stroke-dasharray="01068.1415022205297"
+            stroke-dashoffset="0px"
+            stroke-linecap="round"
+            stroke-width="40"
+            style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+          />
+        </svg>
+        <div
+          style="line-height: 60px; width: 60px; height: 62px;"
+        >
+          <div
+            class="sc-iGgVNO dJdYQu"
+            size="100"
+          >
+            0%
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dcJtft hJYaUE"
+    >
+      <svg
+        height="100"
+        style="transform: rotate(270deg);"
+        viewBox="0 0 420 420"
+        width="100"
+      >
+        <defs>
+          <radialgradient
+            cx="100%"
+            cy="100%"
+            id="linear"
+            r="100%"
+            spreadMethod="pad"
+          >
+            <stop
+              offset="0%"
+              stop-color="#40a9ff"
+            />
+            <stop
+              offset="100%"
+              stop-color="#36cfc9"
+            />
+          </radialgradient>
+        </defs>
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          r="170"
+          stroke="#f5f5f5"
+          stroke-width="40"
+        />
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          opacity="0"
+          r="170"
+          stroke="url(#linear)"
+          stroke-dasharray="01068.1415022205297"
+          stroke-dashoffset="0px"
+          stroke-linecap="round"
+          stroke-width="40"
+          style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+        />
+      </svg>
+      <div
+        style="line-height: 60px; width: 60px; height: 62px;"
+      >
+        <div
+          class="sc-iGgVNO dJdYQu"
+          size="100"
+        >
+          0%
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component should change color 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-aYaIB dPbmMr"
+      >
+        <div
+          bottomcolor="#2A0481"
+          class="sc-eqUzNf doqQBm"
+        >
+          <div
+            class="sc-gEvDqW hxingD"
+            flashcolor="#37D5D3"
+            primary="#FC521F"
+            secondary="#6F2CAC"
+            state="11"
+          />
+        </div>
+        <div
+          class="sc-fqkwJk ifcUbU"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-aYaIB dPbmMr"
+    >
+      <div
+        bottomcolor="#2A0481"
+        class="sc-eqUzNf doqQBm"
+      >
+        <div
+          class="sc-gEvDqW hxingD"
+          flashcolor="#37D5D3"
+          primary="#FC521F"
+          secondary="#6F2CAC"
+          state="11"
+        />
+      </div>
+      <div
+        class="sc-fqkwJk ifcUbU"
+      >
+        11%
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component should change color 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-aYaIB dPbmMr"
+      >
+        <div
+          bottomcolor="#FFAE00"
+          class="sc-eqUzNf cfKUAk"
+        >
+          <div
+            class="sc-gEvDqW krLVjc"
+            flashcolor="#999999"
+            primary="#FF4400"
+            secondary="#37D5D3"
+            state="11"
+          />
+        </div>
+        <div
+          class="sc-fqkwJk ifcUbU"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-aYaIB dPbmMr"
+    >
+      <div
+        bottomcolor="#FFAE00"
+        class="sc-eqUzNf cfKUAk"
+      >
+        <div
+          class="sc-gEvDqW krLVjc"
+          flashcolor="#999999"
+          primary="#FF4400"
+          secondary="#37D5D3"
+          state="11"
+        />
+      </div>
+      <div
+        class="sc-fqkwJk ifcUbU"
+      >
+        11%
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component should change color 3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dcJtft hJYaUE"
+      >
+        <svg
+          height="100"
+          style="transform: rotate(270deg);"
+          viewBox="0 0 420 420"
+          width="100"
+        >
+          <defs>
+            <radialgradient
+              cx="100%"
+              cy="100%"
+              id="linear"
+              r="100%"
+              spreadMethod="pad"
+            >
+              <stop
+                offset="0%"
+                stop-color="#40a9ff"
+              />
+              <stop
+                offset="100%"
+                stop-color="#36cfc9"
+              />
+            </radialgradient>
+          </defs>
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            r="170"
+            stroke="#f5f5f5"
+            stroke-width="40"
+          />
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            opacity="1"
+            r="170"
+            stroke="url(#linear)"
+            stroke-dasharray="117.49556524425826950.6459369762714"
+            stroke-dashoffset="0px"
+            stroke-linecap="round"
+            stroke-width="40"
+            style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+          />
+        </svg>
+        <div
+          style="line-height: 60px; width: 60px; height: 62px;"
+        >
+          <div
+            class="sc-iGgVNO dJdYQu"
+            size="100"
+          >
+            11%
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dcJtft hJYaUE"
+    >
+      <svg
+        height="100"
+        style="transform: rotate(270deg);"
+        viewBox="0 0 420 420"
+        width="100"
+      >
+        <defs>
+          <radialgradient
+            cx="100%"
+            cy="100%"
+            id="linear"
+            r="100%"
+            spreadMethod="pad"
+          >
+            <stop
+              offset="0%"
+              stop-color="#40a9ff"
+            />
+            <stop
+              offset="100%"
+              stop-color="#36cfc9"
+            />
+          </radialgradient>
+        </defs>
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          r="170"
+          stroke="#f5f5f5"
+          stroke-width="40"
+        />
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          opacity="1"
+          r="170"
+          stroke="url(#linear)"
+          stroke-dasharray="117.49556524425826950.6459369762714"
+          stroke-dashoffset="0px"
+          stroke-linecap="round"
+          stroke-width="40"
+          style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+        />
+      </svg>
+      <div
+        style="line-height: 60px; width: 60px; height: 62px;"
+      >
+        <div
+          class="sc-iGgVNO dJdYQu"
+          size="100"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component should change color 4`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dcJtft hJYaUE"
+      >
+        <svg
+          height="100"
+          style="transform: rotate(270deg);"
+          viewBox="0 0 420 420"
+          width="100"
+        >
+          <defs>
+            <radialgradient
+              cx="100%"
+              cy="100%"
+              id="linear"
+              r="100%"
+              spreadMethod="pad"
+            >
+              <stop
+                offset="0%"
+                stop-color="#40a9ff"
+              />
+              <stop
+                offset="100%"
+                stop-color="#36cfc9"
+              />
+            </radialgradient>
+          </defs>
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            r="170"
+            stroke="#f5f5f5"
+            stroke-width="40"
+          />
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            opacity="1"
+            r="170"
+            stroke="url(#linear)"
+            stroke-dasharray="117.49556524425826950.6459369762714"
+            stroke-dashoffset="0px"
+            stroke-linecap="round"
+            stroke-width="40"
+            style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+          />
+        </svg>
+        <div
+          style="line-height: 60px; width: 60px; height: 62px;"
+        >
+          <div
+            class="sc-iGgVNO dJdYQu"
+            size="100"
+          >
+            11%
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dcJtft hJYaUE"
+    >
+      <svg
+        height="100"
+        style="transform: rotate(270deg);"
+        viewBox="0 0 420 420"
+        width="100"
+      >
+        <defs>
+          <radialgradient
+            cx="100%"
+            cy="100%"
+            id="linear"
+            r="100%"
+            spreadMethod="pad"
+          >
+            <stop
+              offset="0%"
+              stop-color="#40a9ff"
+            />
+            <stop
+              offset="100%"
+              stop-color="#36cfc9"
+            />
+          </radialgradient>
+        </defs>
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          r="170"
+          stroke="#f5f5f5"
+          stroke-width="40"
+        />
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          opacity="1"
+          r="170"
+          stroke="url(#linear)"
+          stroke-dasharray="117.49556524425826950.6459369762714"
+          stroke-dashoffset="0px"
+          stroke-linecap="round"
+          stroke-width="40"
+          style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+        />
+      </svg>
+      <div
+        style="line-height: 60px; width: 60px; height: 62px;"
+      >
+        <div
+          class="sc-iGgVNO dJdYQu"
+          size="100"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component should change size 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-aYaIB dPbmMr"
+      >
+        <div
+          bottomcolor="#DDDDDD"
+          class="sc-eqUzNf cctOl"
+          height="500"
+        >
+          <div
+            class="sc-gEvDqW ZzVPj"
+            flashcolor="#FFFFFF"
+            height="500"
+            primary="#FF4785"
+            secondary="#FFAE00"
+            state="11"
+          />
+        </div>
+        <div
+          class="sc-fqkwJk knoBbl"
+          height="500"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-aYaIB dPbmMr"
+    >
+      <div
+        bottomcolor="#DDDDDD"
+        class="sc-eqUzNf cctOl"
+        height="500"
+      >
+        <div
+          class="sc-gEvDqW ZzVPj"
+          flashcolor="#FFFFFF"
+          height="500"
+          primary="#FF4785"
+          secondary="#FFAE00"
+          state="11"
+        />
+      </div>
+      <div
+        class="sc-fqkwJk knoBbl"
+        height="500"
+      >
+        11%
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`test Progress component should change size 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-dcJtft hJYaUE"
+      >
+        <svg
+          height="400"
+          style="transform: rotate(270deg);"
+          viewBox="0 0 420 420"
+          width="400"
+        >
+          <defs>
+            <radialgradient
+              cx="100%"
+              cy="100%"
+              id="linear"
+              r="100%"
+              spreadMethod="pad"
+            >
+              <stop
+                offset="0%"
+                stop-color="#40a9ff"
+              />
+              <stop
+                offset="100%"
+                stop-color="#36cfc9"
+              />
+            </radialgradient>
+          </defs>
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            r="170"
+            stroke="#f5f5f5"
+            stroke-width="40"
+          />
+          <circle
+            cx="210"
+            cy="210"
+            fill="none"
+            opacity="1"
+            r="170"
+            stroke="url(#linear)"
+            stroke-dasharray="117.49556524425826950.6459369762714"
+            stroke-dashoffset="0px"
+            stroke-linecap="round"
+            stroke-width="40"
+            style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+          />
+        </svg>
+        <div
+          style="line-height: 240px; width: 240px; height: 248px;"
+        >
+          <div
+            class="sc-iGgVNO hVGQJQ"
+            size="400"
+          >
+            11%
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-dcJtft hJYaUE"
+    >
+      <svg
+        height="400"
+        style="transform: rotate(270deg);"
+        viewBox="0 0 420 420"
+        width="400"
+      >
+        <defs>
+          <radialgradient
+            cx="100%"
+            cy="100%"
+            id="linear"
+            r="100%"
+            spreadMethod="pad"
+          >
+            <stop
+              offset="0%"
+              stop-color="#40a9ff"
+            />
+            <stop
+              offset="100%"
+              stop-color="#36cfc9"
+            />
+          </radialgradient>
+        </defs>
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          r="170"
+          stroke="#f5f5f5"
+          stroke-width="40"
+        />
+        <circle
+          cx="210"
+          cy="210"
+          fill="none"
+          opacity="1"
+          r="170"
+          stroke="url(#linear)"
+          stroke-dasharray="117.49556524425826950.6459369762714"
+          stroke-dashoffset="0px"
+          stroke-linecap="round"
+          stroke-width="40"
+          style="transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;"
+        />
+      </svg>
+      <div
+        style="line-height: 240px; width: 240px; height: 248px;"
+      >
+        <div
+          class="sc-iGgVNO hVGQJQ"
+          size="400"
+        >
+          11%
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

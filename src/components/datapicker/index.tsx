@@ -13,7 +13,7 @@ import {rgba} from 'polished';
 import {modalCloseAnimate, modalOpenAnimate} from '../shared/animation';
 import {useClickOutside, useStateAnimation} from '../shared/hooks';
 import Button from '../button';
-import {Icon} from '../icon';
+import Icon from '../icon';
 
 type CalendarProps = {
   /** 日期选择的回调 */
@@ -216,7 +216,7 @@ const getStartYear = (calData: calDataTye) => {
   return calData[0] - (calData[0] % 10);
 };
 
-export function DatePicker(props: PropsWithChildren<CalendarProps>) {
+export default function DatePicker(props: PropsWithChildren<CalendarProps>) {
   const {callback, delay, initDate, style, classname} = props;
   const [show, setShow] = useState(false);
   const [calData, setCalData] = useState<calDataTye>(() => [

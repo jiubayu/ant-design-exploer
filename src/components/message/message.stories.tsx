@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Message, MessageType, createMessage, message } from "./index";
+import Message,{ MessageType, createMessage, message } from "./index";
 import Button from "../button";
-import { Icon } from "../icon";
+import Icon from "../icon";
 
 export default {
 title: "Message",

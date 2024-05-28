@@ -1,5 +1,5 @@
 import React from "react";
-import { Upload } from "./index";
+import Upload from "./index";
 
 export default {
 title: "Upload",

@@ -2,7 +2,7 @@
 /* eslint-disable testing-library/render-result-naming-convention */
 import React from 'react';
 import { render, fireEvent, cleanup } from '@testing-library/react';
-import { Badge, badgeBackground, badgeColor, BadgeProps } from '../index';
+import Badge,{ badgeBackground, badgeColor, BadgeProps } from '../index';
 
 const testonClick = jest.fn();
 

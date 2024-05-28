@@ -13,7 +13,7 @@ import styled from 'styled-components';
 import {color, typography} from '../shared/styles';
 import {darken, rgba, opacify} from 'polished';
 import {easing} from '../shared/animation';
-import {Radio} from '../radio';
+import Radio from '../radio';
 
 const Transition = styled.div<TransitionType>`
   ${(props) =>
@@ -135,7 +135,7 @@ function toMove(
   setIndexMap(currentSetMap(y, indexMap));
 }
 
-export function Carousel(props: PropsWithChildren<CarouselProps>) {
+export default function Carousel(props: PropsWithChildren<CarouselProps>) {
   const {
     defaultIndex,
     height,

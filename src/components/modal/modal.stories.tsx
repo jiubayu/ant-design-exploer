@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Modal } from "./index";
+import Modal from "./index";
 import Button from "../button";
 
 export default {

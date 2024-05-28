@@ -1,5 +1,5 @@
 import React from "react";
-import { Tree } from "./index";
+import Tree from "./index";
 
 export default {
 title: "Tree",

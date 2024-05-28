@@ -1,6 +1,6 @@
 import React from "react";
-import { Progress } from "./index";
-import { Icon } from "../icon";
+import Progress from "./index";
+import Icon from "../icon";
 
 export default {
 title: "Progress",

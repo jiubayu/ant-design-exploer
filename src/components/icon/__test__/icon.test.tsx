@@ -2,7 +2,7 @@
 /* eslint-disable testing-library/render-result-naming-convention */
 import React from "react";
 import {render, cleanup} from '@testing-library/react';
-import { Icon, IconProps } from '../index';
+import Icon, {  IconProps } from '../index';
 import { icons } from '../../shared/icons';
 
 function IconTest(icon: IconProps['icon']) {

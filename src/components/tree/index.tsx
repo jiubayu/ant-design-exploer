@@ -9,7 +9,7 @@ import React, {
 } from 'react';
 import styled, { CSSProperties } from 'styled-components';
 import {color, typography} from '../shared/styles';
-import {Icon} from '../icon';
+import Icon from '../icon';
 
 const levelSpace = 24; // 同级生效间距
 const originPadding = 24;
@@ -343,7 +343,7 @@ function changeVisible(item: itemPropsRequired, callback: Function) {
   }
 }
 
-export function Tree(props: PropsWithChildren<TreeProps>) {
+export default function Tree(props: PropsWithChildren<TreeProps>) {
   const {source, drag, borderColor, backColor, style, classname} = props;
    const root = useMemo(() => {
     return {

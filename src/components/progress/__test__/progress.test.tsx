@@ -4,7 +4,7 @@
 
 import React from 'react';
 import {render, cleanup} from '@testing-library/react';
-import {Progress} from '../index';
+import Progress from '../index';
 import {color} from '../../shared/styles';
 
 describe('test Progress component', () => {
