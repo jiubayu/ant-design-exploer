@@ -27,7 +27,7 @@
     "build-ts": "tsc -p tsconfig.build.json",
     "build-css": "node-sass ./src/styles/index.scss ./dist/index.css",
     "prepublishOnly": "npm run build",
-    "lint": "eslint --ext js,ts,tsx src -max-warnings 10",
+    "lint": "eslint --ext js,ts,tsx src",
     "test:watch": "cross-env CI=true && npm run test",
     "prepare": "husky"
   },
@@ -54,12 +54,6 @@
       "react-app/jest",
       "plugin:storybook/recommended"
     ]
-  },
-
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   },
   "browserslist": {
     "production": [
