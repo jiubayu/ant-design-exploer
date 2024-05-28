@@ -54,10 +54,10 @@
       "plugin:storybook/recommended"
     ]
   },
-  
+
   "husky":{
     "hooks": {
-      "pre-commit": "npm run test:watch && npm run lint"
+      "pre-commit": "npm run lint"
     }
   },
   "browserslist": {
