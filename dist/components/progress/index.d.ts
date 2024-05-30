@@ -1,5 +1,5 @@
 /** @format */
-import React, { PropsWithChildren, ReactNode } from 'react';
+import { PropsWithChildren, ReactNode } from 'react';
 import { CSSProperties } from 'styled-components';
 export type ProgressProps = {
     /** 进度值 */
@@ -27,7 +27,7 @@ export type ProgressProps = {
     secondary?: string;
 };
 export declare const progressFlash: import("styled-components/dist/models/Keyframes").default;
-declare function Progress(props: PropsWithChildren<ProgressProps>): React.JSX.Element;
+declare function Progress(props: PropsWithChildren<ProgressProps>): import("react/jsx-runtime").JSX.Element;
 declare namespace Progress {
     var defaultProps: {
         countNumber: boolean;

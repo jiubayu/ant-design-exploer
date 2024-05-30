@@ -1,4 +1,3 @@
-import React from "react";
 import { icons } from "../shared/icons";
 type sizeType = 'middle' | 'small' | 'large';
 export interface IconProps {
@@ -8,7 +7,7 @@ export interface IconProps {
     color?: string;
     size?: sizeType;
 }
-declare function Icon(props: IconProps): React.JSX.Element;
+declare function Icon(props: IconProps): import("react/jsx-runtime").JSX.Element;
 declare namespace Icon {
     var defaultProps: {
         block: boolean;

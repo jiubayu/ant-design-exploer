@@ -1,5 +1,5 @@
 /** @format */
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 import { color } from '../shared/styles';
 type CarouselProps = {
     /** 默认索引 */
@@ -16,7 +16,7 @@ type CarouselProps = {
     /** radio color */
     radioAppear?: keyof typeof color;
 };
-declare function Carousel(props: PropsWithChildren<CarouselProps>): React.JSX.Element;
+declare function Carousel(props: PropsWithChildren<CarouselProps>): import("react/jsx-runtime").JSX.Element;
 declare namespace Carousel {
     var defaultProps: {
         defaultIndex: number;

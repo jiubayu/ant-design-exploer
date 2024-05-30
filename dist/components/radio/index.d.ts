@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, AllHTMLAttributes, ReactNode } from "react";
+import { PropsWithChildren, AllHTMLAttributes, ReactNode } from "react";
 import { color } from "../shared/styles";
 export interface RadioProps extends Omit<AllHTMLAttributes<HTMLInputElement>, 'as' | 'label'> {
     /** 主题色 */
@@ -14,7 +14,7 @@ export interface RadioProps extends Omit<AllHTMLAttributes<HTMLInputElement>, 'a
     /** wrapper类名 */
     wrapperClass?: string;
 }
-declare function Radio(props: PropsWithChildren<RadioProps>): React.JSX.Element;
+declare function Radio(props: PropsWithChildren<RadioProps>): import("react/jsx-runtime").JSX.Element;
 declare namespace Radio {
     var defaultProps: {
         appearance: string;

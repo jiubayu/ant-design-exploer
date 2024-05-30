@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactNode } from 'react';
+import { PropsWithChildren, ReactNode } from 'react';
 export type TableProps = {
     /** 表内数据部分 */
     data: SourceDataType[];
@@ -24,7 +24,7 @@ export interface ColumnType {
     };
     render?: (v: any, value: SourceDataType, rowData: ColumnType) => ReactNode;
 }
-declare function Table(props: PropsWithChildren<TableProps>): React.JSX.Element;
+declare function Table(props: PropsWithChildren<TableProps>): import("react/jsx-runtime").JSX.Element;
 declare namespace Table {
     var defaultProps: {
         sorted: boolean;

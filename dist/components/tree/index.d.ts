@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 import { CSSProperties } from 'styled-components';
 export declare const throttle: (fn: Function, delay?: number) => (...args: any[]) => void;
 interface itemProps {
@@ -24,10 +24,10 @@ type TreeProps = {
     /**外层类名*/
     classname?: string;
 };
-declare function Tree(props: PropsWithChildren<TreeProps>): React.JSX.Element;
+declare function Tree(props: PropsWithChildren<TreeProps>): import("react/jsx-runtime").JSX.Element;
 declare namespace Tree {
     var defaultProps: {
-        source: any[];
+        source: never[];
         drag: boolean;
         borderColor: string;
         bckColor: string;

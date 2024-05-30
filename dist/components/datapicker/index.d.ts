@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 import { CSSProperties } from 'styled-components';
 type CalendarProps = {
     /** 日期选择的回调 */
@@ -12,5 +12,5 @@ type CalendarProps = {
     /** 外层类名 */
     classname?: string;
 };
-export default function DatePicker(props: PropsWithChildren<CalendarProps>): React.JSX.Element;
+export default function DatePicker(props: PropsWithChildren<CalendarProps>): import("react/jsx-runtime").JSX.Element;
 export {};

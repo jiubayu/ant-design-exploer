@@ -5,6 +5,7 @@
   "author": "tb_yang",
   "private": false,
   "license": "MIT",
+  "type": "module",
   "keywords": [
     "Component",
     "UI",
@@ -29,9 +30,12 @@
     "prepublishOnly": "npm run build",
     "lint": "eslint --ext js,ts,tsx src",
     "test:watch": "cross-env CI=true && npm run test",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build-es": "rollup --config rollup.config.js"
   },
   "dependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -44,6 +48,7 @@
     "node-sass": "^9.0.0",
     "polished": "^4.3.1",
     "react-scripts": "5.0.1",
+    "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.23",
     "styled-components": "^6.1.8",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -69,6 +74,9 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.25",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
     "@storybook/addon-a11y": "^8.0.4",
     "@storybook/addon-essentials": "^8.0.4",
     "@storybook/addon-interactions": "^8.0.4",
@@ -88,6 +96,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rimraf": "^5.0.7",
+    "rollup": "^4.18.0",
+    "rollup-plugin-sass": "^1.12.22",
+    "rollup-plugin-typescript2": "^0.36.0",
     "storybook": "^8.0.4",
     "webpack": "^5.91.0"
   },

@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 import { CSSProperties } from 'styled-components';
 type PaginationProps = {
     /** 每页显示多少条*/
@@ -16,7 +16,7 @@ type PaginationProps = {
     /**外层类名 */
     classnames?: string;
 };
-declare function Pagination(props: PropsWithChildren<PaginationProps>): React.JSX.Element;
+declare function Pagination(props: PropsWithChildren<PaginationProps>): import("react/jsx-runtime").JSX.Element;
 declare namespace Pagination {
     var defaultProps: {
         pageSize: number;

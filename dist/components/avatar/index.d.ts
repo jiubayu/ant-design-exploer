@@ -1,4 +1,4 @@
-import React, { HTMLAttributes } from "react";
+import { HTMLAttributes } from "react";
 export interface AvatarProps extends HTMLAttributes<HTMLDivElement> {
     isLoading?: boolean;
     username?: string;
@@ -11,12 +11,12 @@ export declare const AvatarSizes: {
     small: number;
     tiny: number;
 };
-declare function Avatar(props: AvatarProps): React.JSX.Element;
+declare function Avatar(props: AvatarProps): import("react/jsx-runtime").JSX.Element;
 declare namespace Avatar {
     var defaultProps: {
         isLoading: boolean;
         username: string;
-        src: any;
+        src: null;
         size: string;
     };
 }

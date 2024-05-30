@@ -1,4 +1,4 @@
-import React, { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react';
+import { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react';
 /**  ts类型  */
 type btnType = 'primary' | 'primaryOutline' | 'secondary' | 'secondaryOutline' | 'tertiary' | 'outline' | 'inversePrimary' | 'inverseSecondary' | 'inverseOutline';
 type AppearanceObj = {
@@ -33,18 +33,18 @@ export declare const btnPadding: {
     small: string;
 };
 export type ButtonProps = CustormButtonProps & ButtonHTMLAttributes<HTMLButtonElement> & AnchorHTMLAttributes<HTMLAnchorElement>;
-declare function Button(props: ButtonProps): React.JSX.Element;
+declare function Button(props: ButtonProps): import("react/jsx-runtime").JSX.Element;
 declare namespace Button {
     var defaultProps: {
         isLoading: boolean;
-        loadingText: any;
+        loadingText: null;
         isLink: boolean;
         appearance: btnType;
         isDisabled: boolean;
         isUnclickable: boolean;
         containsIcon: boolean;
         size: sizeType;
-        ButtonWrapper: any;
+        ButtonWrapper: undefined;
     };
 }
 export default Button;

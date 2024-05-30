@@ -1,3 +1,4 @@
+import './styles/index.scss';
 export { default as Button } from './components/button';
 export { default as Avatar } from './components/avatar';
 export { default as Badge } from './components/badge';

@@ -52,8 +52,8 @@ export declare const IconSpin: import("styled-components/dist/types").IStyledCom
 interface ImgListProps extends UploadListProps {
     setFlist: React.Dispatch<React.SetStateAction<ProgressBar[]>>;
 }
-export declare function ImageList(props: ImgListProps): React.JSX.Element;
-declare function Upload(props: PropsWithChildren<UploadProps>): React.JSX.Element;
+export declare function ImageList(props: ImgListProps): import("react/jsx-runtime").JSX.Element;
+declare function Upload(props: PropsWithChildren<UploadProps>): import("react/jsx-runtime").JSX.Element;
 declare namespace Upload {
     var defaultProps: {
         axiosConfig: {};

@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactNode } from 'react';
+import { PropsWithChildren, ReactNode } from 'react';
 type Partial<T> = {
     [key in keyof T]?: T[key];
 };
@@ -25,7 +25,7 @@ export interface MessageConfig {
     /** 文字颜色*/
     color: string;
 }
-export default function Message(props: PropsWithChildren<MessageProps>): React.JSX.Element;
+export default function Message(props: PropsWithChildren<MessageProps>): import("react/jsx-runtime").JSX.Element;
 export declare const message: {
     info: (content: ReactNode, config?: Partial<MessageConfig>) => void;
     success: (content: ReactNode, config?: Partial<MessageConfig>) => void;

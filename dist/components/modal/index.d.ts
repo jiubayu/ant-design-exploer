@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactNode } from 'react';
+import { PropsWithChildren, ReactNode } from 'react';
 import { CSSProperties } from 'styled-components';
 type ModalProps = {
     /** 父组件用来控制的状态 */
@@ -42,5 +42,5 @@ type ModalProps = {
 };
 export declare function useAnimation(parentSetState: (v: boolean) => void, delay?: number): [boolean, (v: boolean) => void, () => void];
 export declare function useStopScroll(state: boolean, delay?: number, open?: boolean): void;
-export default function Modal(props: PropsWithChildren<ModalProps>): React.JSX.Element;
+export default function Modal(props: PropsWithChildren<ModalProps>): import("react/jsx-runtime").JSX.Element;
 export {};
